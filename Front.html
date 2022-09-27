@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruit Stand</title>
 </head>
 <body>
-    
+    <table>
+        <h1>Welcome to my fruit stand </h1>
+            <p> Even better</p>
+        <h2> Some more text</h2>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Brad Trave</td>
+                <td>b@email.com</td>
+                <td>700</td>
+            </tr>
+            <tr>
+                <td>Adam Mann</td>
+                <td>MannA@email.com</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Sarah Small</td>
+                <td>Ssmall@email.com</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <br>
+
+    <!-- Forms -->
+    <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName" placeholder="Enter first name">
+            </div>
+        <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName">
+            </div>
+        <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+        <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+        <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age" value="30">
+            </div>
+         <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+
+    </form>
 </body>
 </html>
