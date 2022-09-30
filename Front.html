@@ -3,91 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Fruit Stand" content="Selling Fruit">
+    <meta name="Pablo Hernandez" content="Web design">
     <title>Fruit Stand</title>
+    <style type="text/css">
+        #main-header{
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+            padding: 10px;
+        }
+        #main-footer{
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    <table>
-        <h1>Welcome to my fruit stand </h1>
-            <p> Even better</p>
-        <h2> Some more text</h2>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Age</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Brad Trave</td>
-                <td>b@email.com</td>
-                <td>700</td>
-            </tr>
-            <tr>
-                <td>Adam Mann</td>
-                <td>MannA@email.com</td>
-                <td>50</td>
-            </tr>
-            <tr>
-                <td>Sarah Small</td>
-                <td>Ssmall@email.com</td>
-                <td>25</td>
-            </tr>
-        </tbody>
-    </table>
-    <br>
-    <hr>
-    <br>
-
-    <!-- Forms -->
-    <form action="process.php" method="POST">
-            <div>
-                <label>First Name</label>
-                <input type="text" name="firstName" placeholder="Enter first name">
-            </div>
-        <br>
-            <div>
-                <label>Last Name</label>
-                <input type="text" name="lastName">
-            </div>
-        <br>
-            <div>
-                <label>Email</label>
-                <input type="email" name="email">
-            </div>
-        <br>
-            <div>
-                <label>Message</label>
-                <textarea name="message"></textarea>
-            </div>
-        <br>
-            <div>
-                <label>Gender</label>
-                <select name="gender">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-        <br>
-            <div>
-                <label>Age:</label>
-                <input type="number" name="age" value="30">
-            </div>
-         <br>
-            <div>
-                <label>Birthday:</label>
-                <input type="date" name="birthday">
-            </div>
-        <br>
-            <div>
-                <input type="submit" name="submit" value="Submit">
-            </div>
-    </form>
-    <!-- Button -->
-    <button> Click ME</button>
-    <!-- Image-->
-    <img>
+    <header id="main-header">
+        <h1> Welcome To my Fruit Stand </h1>
+    </header>
+    <a href="index.html">Go to index</a>
+    <section>
+        <article class="post">
+            <h3>Grapes</h3>
+                 <small>Grapes picked by your local farmers </small>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi perferendis error, saepe 
+                       expedita quis pariatur provident harum. Eaque alias pariatur, blanditiis officiis accusamus
+                       quo dignissimos assumenda repudiandae laborum, in recusandae?</p>
+        </article>
+            <h3>Grapes</h3>
+                <small>Grapes picked by your local farmers </small>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi perferendis error, saepe 
+                    expedita quis pariatur provident harum. Eaque alias pariatur, blanditiis officiis accusamus
+                    quo dignissimos assumenda repudiandae laborum, in recusandae?</p>
+        </article>
+            <h3>Grapes</h3>
+                <small>Grapes picked by your local farmers </small>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi perferendis error, saepe 
+                    expedita quis pariatur provident harum. Eaque alias pariatur, blanditiis officiis accusamus
+                    quo dignissimos assumenda repudiandae laborum, in recusandae?</p>
+        </article>
+    </section>
+    <aside>
+        <h3>Categories</h3>
+        <nav>
+            <ul>
+                    <li>List1</li>
+                    <li>List2</li>
+                    <li>List3</li>
+            </ul>
+        </nav>   
+    </aside>
+    <footer id="main-footer">
+        <p>Please follow us </p>
+    </footer>
 </body>
 </html>
