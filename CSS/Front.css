@@ -1,7 +1,34 @@
 header{
-    color:darkblue;
-    text-align: center;
+    color:#fff;
+    text-align: left;
     
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color: coral;
+    color: #fFF;
+}
+#navbar{
+    background-color: #333;
+    color: #fff;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+
 }
 body{
     background-color:azure;
@@ -22,13 +49,10 @@ body{
     color: #fff;
 }
 .post1{
-    background-color: aquamarine;
+    background-color:coral;
     color:darkblue;
     border: 5px black solid;
-}
-.container{
-    width: 80%;
-    margin: auto;
+    padding-top: 20px;
 }
 .main-form{
     padding: 20px;
@@ -94,4 +118,22 @@ body{
 }
 .my-list li:last-child{
     background: blue;
+}
+#navbar{
+    background-color: #333;
+    color: #fff;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+
 }
