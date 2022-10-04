@@ -34,7 +34,8 @@ body{
 }
 #showcase{
     background-image: url(../Images/fruit2.jpg);
-    background-position: center right;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 300px;
     margin-bottom: 30px;
     text-align: center;
@@ -64,7 +65,7 @@ body{
     color: #fff;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 20%;
 }
 @media(max-width:600px){
     #main{

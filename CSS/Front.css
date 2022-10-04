@@ -50,29 +50,10 @@ body{
 }
 .post1{
     background-color:coral;
-    color:darkblue;
+    color: #fff;;
     border: 5px black solid;
     padding-top: 20px;
-}
-.main-form{
-    padding: 20px;
-}
-.main-form .form-group{
-    padding-bottom: 15px;
-}
-.main-form label {
-    display: block;
-}
-.main-form input[type="text"], .main-form textarea{
-    padding: 8px;
-    width: 100%;
-}
-.block{
-    float:left;
-    width: 33.3%;
-    border:1px solid #ccc;
-    padding: 10px;
-    box-sizing: border-box;
+    padding-left: 20px;
 }
 #main-block{
     float: left;
@@ -82,22 +63,13 @@ body{
 #sidebar{
     float: right;
     width: 30%;
-    background-color: aquamarine;
+    background-color: coral;
     color: #fff;
     padding: 15px;
     box-sizing: border-box;
+    
 }
-.p-box{
-    width: 800px;
-    height: 500px;
-    border: 1px solid #000;
-    margin-top: 30px;
-    position: relative;
-    background-image: url(../Images/fruit1.jpg);
-    background-repeat: no-repeat;
-    background-position: 100px 200px;
-    background-position: center center;
-}
+
 .p-box h1{
     position:absolute;
     top:100px;
@@ -136,4 +108,11 @@ body{
     font-size: 18px;
     padding: 15px;
 
+}
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20%;
 }
